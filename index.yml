@@ -1,0 +1,24 @@
+title: Gene Selection and Classification of Microarray Data using Various Machine Learning Techniques
+author: Arun Balaji, Matthew Falcione
+abstract: In bioinformatics studies, the selection of relevant genes for
+sample classification is a common task. The goal of this project is to
+compare the accuracy of re-sults obtained via various machine learning
+methods such as random forest, XGBoost, neural network, line-ar discriminant
+analysis, k nearest neighbor, logistic re-gression, and support vector
+machine to those de-scribed in the reference paper [1]. The dataset used
+10 cancer datasets obtained from various sources, span-ning thousands
+of genes and hundreds of patients. For classification, the models were
+run on each subset of attributes chosen by the feature selection models
+as well as the raw data for each dataset. The preprocessed data is stored
+locally to skip redundancies and for speed of analysis. Tree-based and
+Logistic Regression recur-sive feature elimination methods performed best
+with percent errors of 17.514% +/- 12.51% and 15.623% +/- 15.517%,
+respectively. Feature selection perfor-mance increases across all datasets
+for SVM ranged from 0% to 28.6% with an average of 8.47% +/- 8.73%, and
+performance increases across all datasets for KNN ranged from 0% to 14.3%
+with an average of 6.88% +/- 5.82%. The team’s models were able to produce
+better performance than those from the origi-nal paper for each dataset.
+The experiments also show that feature selection with SVM and KNN models
+produced a lower error rate than when they were run with the raw features.
+Logistic regression outperformed all other methods on average, but the
+random forest model performed best most consistently.
