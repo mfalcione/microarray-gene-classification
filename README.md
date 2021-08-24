@@ -1,4 +1,4 @@
-# Project
+# Gene Selection and Classification of Microarray Data using Various Machine Learning Techniques
 In bioinformatics studies, the selection of relevant genes for sample classification is a common task.
 
 The goal of this project is to compare the accuracy of the results obtained to those of the paper using various machine learning methods such as random forest, XGBoost, neural network, linear discriminant analysis (LDA), k nearest neighbor (KNN), logistic regression, and support vector machine (SVM). An additional goal is to investigate the performance of feature selection with algorithms used in the [reference paper](https://github.com/rdiaz02/varSelRF-suppl-mat/blob/3ef2b5156f288cdad153998084bf77578c90393d/data.sets.zip).
